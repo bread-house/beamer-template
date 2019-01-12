@@ -1,0 +1,63 @@
+\documentclass{beamer}
+\usetheme{breadhouse}
+
+\title{A minimal example for bread house}
+\date{\today}
+\author{Bread House Owner}
+\institute{House for Bread}
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+\begin{frame}{Introduction}
+
+\begin{itemize}
+  \item Your introduction goes here!
+  \item Use \texttt{itemize} to organize your main points.
+\end{itemize}
+
+\vskip 1cm
+
+\begin{block}{Examples}
+Some examples of commonly used commands and features are included, to help you get started.
+\end{block}
+
+\end{frame}
+
+\section{Some \LaTeX{} Examples}
+
+\subsection{Tables and Figures}
+
+\begin{frame}{Tables and Figures}
+
+\begin{itemize}
+\item Use \texttt{tabular} for basic tables --- see Table~\ref{tab:widgets}, for example.
+\item You can upload a figure (JPEG, PNG or PDF) using the files menu.
+\item To include it in your document, use the \texttt{includegraphics} command (see the comment below in the source code).
+\end{itemize}
+
+ Commands to include a figure:
+\begin{figure}
+ \includegraphics[width=.1\textwidth]{logo.eps}
+ \caption{\label{fig:your-figure}Caption goes here.}
+\end{figure}
+
+\begin{table}
+\centering
+\begin{tabular}{l|r}
+Item & Quantity \\\hline
+Widgets & 42 \\
+Gadgets & 13
+\end{tabular}
+\caption{\label{tab:widgets}An example table.}
+\end{table}
+
+\end{frame}
+
+\section{Mathematics}
+
+\begin{frame}{Readable Mathematics}
+Let $X_1, X_2, \ldots, X_n$ be a sequence of independent and identically distributed random variables.
+\end{frame}
+\end{document}

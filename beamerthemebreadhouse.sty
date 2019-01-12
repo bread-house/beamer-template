@@ -1,0 +1,21 @@
+\mode<presentation>
+
+\usefonttheme{default}
+\usecolortheme{default}
+\useinnertheme{default}
+\useoutertheme{default}
+
+\mode
+<all>
+
+\logo{
+  \includegraphics[height=.1\textheight]{logo}
+  \vspace{0.85\textheight}
+}
+
+\addtobeamertemplate{navigation symbols}{}{
+    \usebeamerfont{footline}
+    \usebeamercolor[fg]{footline}
+    \hspace{1em}
+    \insertframenumber/\inserttotalframenumber
+}
